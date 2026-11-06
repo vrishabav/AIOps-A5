@@ -2,120 +2,120 @@
   "batch100": {
     "concurrency": 1,
     "batch": 100,
-    "requests": 866,
-    "elapsed_s": 4.0037,
-    "rps": 216.3,
-    "mean_ms": 4.61,
-    "p50_ms": 4.4,
-    "p95_ms": 5.7,
-    "p99_ms": 6.5,
+    "requests": 1317,
+    "elapsed_s": 4.0028,
+    "rps": 329.0,
+    "mean_ms": 3.029,
+    "p50_ms": 2.6,
+    "p95_ms": 5.2,
+    "p99_ms": 6.3,
     "errors": 0,
     "replicas": 1,
     "replica_counts": {
-      "624299": 866
+      "1113553": 1317
     },
     "versions": {
-      "v1": 866
+      "v1": 1317
     }
   },
   "2": [
     {
       "concurrency": 1,
       "batch": 1,
-      "requests": 88,
-      "elapsed_s": 4.0065,
-      "rps": 22.0,
-      "mean_ms": 45.497,
-      "p50_ms": 46.0,
-      "p95_ms": 47.1,
-      "p99_ms": 47.9,
+      "requests": 1883,
+      "elapsed_s": 4.0014,
+      "rps": 470.6,
+      "mean_ms": 2.118,
+      "p50_ms": 1.6,
+      "p95_ms": 4.3,
+      "p99_ms": 5.0,
       "errors": 0,
       "replicas": 1,
       "replica_counts": {
-        "624735": 88
+        "1113920": 1883
       },
       "versions": {
-        "v1": 88
+        "v1": 1883
       }
     },
     {
       "concurrency": 2,
       "batch": 1,
-      "requests": 178,
-      "elapsed_s": 4.0331,
-      "rps": 44.1,
-      "mean_ms": 45.267,
-      "p50_ms": 45.8,
-      "p95_ms": 47.1,
-      "p99_ms": 47.8,
+      "requests": 3967,
+      "elapsed_s": 4.0028,
+      "rps": 991.0,
+      "mean_ms": 2.011,
+      "p50_ms": 1.6,
+      "p95_ms": 4.1,
+      "p99_ms": 4.9,
       "errors": 0,
       "replicas": 2,
       "replica_counts": {
-        "624735": 89,
-        "624734": 89
+        "1113920": 1963,
+        "1113921": 2004
       },
       "versions": {
-        "v1": 178
+        "v1": 3967
       }
     },
     {
       "concurrency": 4,
       "batch": 1,
-      "requests": 355,
-      "elapsed_s": 4.0352,
-      "rps": 88.0,
-      "mean_ms": 45.313,
-      "p50_ms": 45.0,
-      "p95_ms": 48.9,
-      "p99_ms": 51.6,
+      "requests": 4469,
+      "elapsed_s": 4.0042,
+      "rps": 1116.1,
+      "mean_ms": 3.573,
+      "p50_ms": 2.9,
+      "p95_ms": 7.0,
+      "p99_ms": 8.5,
       "errors": 0,
       "replicas": 2,
       "replica_counts": {
-        "624734": 265,
-        "624735": 90
+        "1113921": 2212,
+        "1113920": 2257
       },
       "versions": {
-        "v1": 355
+        "v1": 4469
       }
     },
     {
       "concurrency": 8,
       "batch": 1,
-      "requests": 691,
-      "elapsed_s": 4.0391,
-      "rps": 171.1,
-      "mean_ms": 46.467,
-      "p50_ms": 45.3,
-      "p95_ms": 51.8,
-      "p99_ms": 86.8,
+      "requests": 3613,
+      "elapsed_s": 4.0106,
+      "rps": 900.9,
+      "mean_ms": 8.848,
+      "p50_ms": 8.3,
+      "p95_ms": 15.0,
+      "p99_ms": 18.8,
       "errors": 0,
       "replicas": 2,
       "replica_counts": {
-        "624734": 341,
-        "624735": 350
+        "1113920": 1899,
+        "1113921": 1714
       },
       "versions": {
-        "v1": 691
+        "v1": 3613
       }
     },
     {
       "concurrency": 16,
       "batch": 1,
-      "requests": 1311,
-      "elapsed_s": 4.0415,
-      "rps": 324.4,
-      "mean_ms": 48.877,
-      "p50_ms": 47.2,
-      "p95_ms": 60.0,
-      "p99_ms": 74.5,
+      "requests": 4574,
+      "elapsed_s": 4.0156,
+      "rps": 1139.1,
+      "mean_ms": 13.964,
+      "p50_ms": 12.7,
+      "p95_ms": 25.8,
+      "p99_ms": 33.3,
       "errors": 0,
       "replicas": 2,
       "replica_counts": {
-        "624734": 869,
-        "624735": 442
+        "1113920": 2433,
+        "1113921": 2141
       },
       "versions": {
-        "v1": 1311
+        "v1": 4574
       }
     }
   ]

@@ -170,7 +170,7 @@ def package(rollno):
         raise ValueError("pass --rollno with your actual roll number")
     report()
     source, pdf = report_paths()
-    files = ["README.md", "INSTRUCTIONS_FOR_TAS.md", "requirements.txt", "eta_data.py", "load_test.py", "run.py"]
+    files = ["README.md", "INSTRUCTIONS_FOR_TAS.md", "requirements.txt", "conftest.py", "eta_data.py", "load_test.py", "run.py"]
     for folder in ("partA", "partB", "partC", "partD"):
         files += [str(p) for p in Path(folder).iterdir() if p.suffix in (".py", ".txt", ".json")]
     target = f"Module4_{rollno}.zip"

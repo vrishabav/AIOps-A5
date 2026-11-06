@@ -20,7 +20,7 @@ def smoke(url, expect_version, max_p95_ms=80):
             response.raise_for_status()
             body = response.json()
             values = body["predictions"]
-            assert body["model_version"] == expect_version, body
+            assert body["model_version"] == expect_version, f"expected version {expect_version}, got {body['model_version']}"
             assert len(values) == len(rows) and all(isinstance(v, (int, float)) and math.isfinite(v) and v > 0 for v in values)
             return body
 

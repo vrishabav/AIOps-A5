@@ -1,32 +1,32 @@
 {
   "registry": [
     {
-      "version": "3",
+      "version": "1",
       "alias": "prod",
       "bundle": "v1"
     },
     {
-      "version": "4",
+      "version": "2",
       "alias": "candidate",
       "bundle": "v2"
     }
   ],
   "default": {
     "versions": {
-      "prod": "3",
-      "candidate": "4"
+      "prod": "1",
+      "candidate": "2"
     },
     "prod": {
       "mae": 11.9553,
       "mae_rush": 19.679859894921194,
       "mae_rain": 11.622736418511066,
-      "p95_ms": 2.0225009000569116
+      "p95_ms": 0.7576882184366696
     },
     "candidate": {
       "mae": 6.104850000000001,
       "mae_rush": 8.579509632224168,
       "mae_rain": 6.285311871227364,
-      "p95_ms": 2.1795061984448694
+      "p95_ms": 1.5802983587491324
     },
     "thresholds": {
       "min_rel_gain": 0.03,
@@ -43,20 +43,20 @@
   },
   "strict": {
     "versions": {
-      "prod": "3",
-      "candidate": "4"
+      "prod": "1",
+      "candidate": "2"
     },
     "prod": {
       "mae": 11.9553,
       "mae_rush": 19.679859894921194,
       "mae_rain": 11.622736418511066,
-      "p95_ms": 2.412191890471149
+      "p95_ms": 0.845497079717461
     },
     "candidate": {
       "mae": 6.104850000000001,
       "mae_rush": 8.579509632224168,
       "mae_rain": 6.285311871227364,
-      "p95_ms": 2.166616709291702
+      "p95_ms": 0.7575531330076045
     },
     "thresholds": {
       "min_rel_gain": 0.6,
