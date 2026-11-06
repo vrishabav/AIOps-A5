@@ -1,0 +1,14 @@
+# Tested package versions on Python 3.14.
+fastapi==0.141.1
+uvicorn==0.52.3
+pydantic==2.13.4
+scikit-learn==1.9.0
+pandas==2.3.3
+numpy==2.5.3
+joblib==1.5.3
+requests==2.34.2
+mlflow==3.15.1
+ray[serve]==2.58.0
+prometheus-client==0.26.0
+httpx==0.28.1
+pytest==9.0.2

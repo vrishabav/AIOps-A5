@@ -1,0 +1,74 @@
+{
+  "registry": [
+    {
+      "version": "3",
+      "alias": "prod",
+      "bundle": "v1"
+    },
+    {
+      "version": "4",
+      "alias": "candidate",
+      "bundle": "v2"
+    }
+  ],
+  "default": {
+    "versions": {
+      "prod": "3",
+      "candidate": "4"
+    },
+    "prod": {
+      "mae": 11.9553,
+      "mae_rush": 19.679859894921194,
+      "mae_rain": 11.622736418511066,
+      "p95_ms": 2.0225009000569116
+    },
+    "candidate": {
+      "mae": 6.104850000000001,
+      "mae_rush": 8.579509632224168,
+      "mae_rain": 6.285311871227364,
+      "p95_ms": 2.1795061984448694
+    },
+    "thresholds": {
+      "min_rel_gain": 0.03,
+      "max_p95_ms": 10.0,
+      "max_slice_regression": 0.05
+    },
+    "criteria": {
+      "overall_gain": true,
+      "latency": true,
+      "rush_slice": true,
+      "rain_slice": true
+    },
+    "promote": true
+  },
+  "strict": {
+    "versions": {
+      "prod": "3",
+      "candidate": "4"
+    },
+    "prod": {
+      "mae": 11.9553,
+      "mae_rush": 19.679859894921194,
+      "mae_rain": 11.622736418511066,
+      "p95_ms": 2.412191890471149
+    },
+    "candidate": {
+      "mae": 6.104850000000001,
+      "mae_rush": 8.579509632224168,
+      "mae_rain": 6.285311871227364,
+      "p95_ms": 2.166616709291702
+    },
+    "thresholds": {
+      "min_rel_gain": 0.6,
+      "max_p95_ms": 10.0,
+      "max_slice_regression": 0.05
+    },
+    "criteria": {
+      "overall_gain": false,
+      "latency": true,
+      "rush_slice": true,
+      "rain_slice": true
+    },
+    "promote": false
+  }
+}

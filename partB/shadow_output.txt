@@ -1,0 +1,7 @@
+{
+  "requests_per_server": 200,
+  "mean_absolute_difference_minutes": 9.484499999999999,
+  "percent_difference_over_10_minutes": 35.0,
+  "prod_p95_ms": 8.403931604698297,
+  "candidate_p95_ms": 9.33249874724424
+}

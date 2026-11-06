@@ -1,0 +1,122 @@
+{
+  "batch100": {
+    "concurrency": 1,
+    "batch": 100,
+    "requests": 866,
+    "elapsed_s": 4.0037,
+    "rps": 216.3,
+    "mean_ms": 4.61,
+    "p50_ms": 4.4,
+    "p95_ms": 5.7,
+    "p99_ms": 6.5,
+    "errors": 0,
+    "replicas": 1,
+    "replica_counts": {
+      "624299": 866
+    },
+    "versions": {
+      "v1": 866
+    }
+  },
+  "2": [
+    {
+      "concurrency": 1,
+      "batch": 1,
+      "requests": 88,
+      "elapsed_s": 4.0065,
+      "rps": 22.0,
+      "mean_ms": 45.497,
+      "p50_ms": 46.0,
+      "p95_ms": 47.1,
+      "p99_ms": 47.9,
+      "errors": 0,
+      "replicas": 1,
+      "replica_counts": {
+        "624735": 88
+      },
+      "versions": {
+        "v1": 88
+      }
+    },
+    {
+      "concurrency": 2,
+      "batch": 1,
+      "requests": 178,
+      "elapsed_s": 4.0331,
+      "rps": 44.1,
+      "mean_ms": 45.267,
+      "p50_ms": 45.8,
+      "p95_ms": 47.1,
+      "p99_ms": 47.8,
+      "errors": 0,
+      "replicas": 2,
+      "replica_counts": {
+        "624735": 89,
+        "624734": 89
+      },
+      "versions": {
+        "v1": 178
+      }
+    },
+    {
+      "concurrency": 4,
+      "batch": 1,
+      "requests": 355,
+      "elapsed_s": 4.0352,
+      "rps": 88.0,
+      "mean_ms": 45.313,
+      "p50_ms": 45.0,
+      "p95_ms": 48.9,
+      "p99_ms": 51.6,
+      "errors": 0,
+      "replicas": 2,
+      "replica_counts": {
+        "624734": 265,
+        "624735": 90
+      },
+      "versions": {
+        "v1": 355
+      }
+    },
+    {
+      "concurrency": 8,
+      "batch": 1,
+      "requests": 691,
+      "elapsed_s": 4.0391,
+      "rps": 171.1,
+      "mean_ms": 46.467,
+      "p50_ms": 45.3,
+      "p95_ms": 51.8,
+      "p99_ms": 86.8,
+      "errors": 0,
+      "replicas": 2,
+      "replica_counts": {
+        "624734": 341,
+        "624735": 350
+      },
+      "versions": {
+        "v1": 691
+      }
+    },
+    {
+      "concurrency": 16,
+      "batch": 1,
+      "requests": 1311,
+      "elapsed_s": 4.0415,
+      "rps": 324.4,
+      "mean_ms": 48.877,
+      "p50_ms": 47.2,
+      "p95_ms": 60.0,
+      "p99_ms": 74.5,
+      "errors": 0,
+      "replicas": 2,
+      "replica_counts": {
+        "624734": 869,
+        "624735": 442
+      },
+      "versions": {
+        "v1": 1311
+      }
+    }
+  ]
+}

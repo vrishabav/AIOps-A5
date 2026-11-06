@@ -1,0 +1,5 @@
+PASS a: 1000 customers, candidate share=0.213 (required 0.16..0.24)
+PASS b: 200/200 customers sticky on second HTTP call
+PASS c: 200/200 customers sticky after identical redeployment
+PASS d: no original candidate customer moved to prod at weight=0.5
+PASS e: 50/50 prod customers forced to v2; next normal call remains v1
